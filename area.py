@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 # This module will calculate the area of a rectangle using the concept of OOP
+
+
 class Area:
     """A class that will calculate area of a rectangle"""
+
     def _init_(self):
+
         """class method to calculate area"""
         self.length = float(input("Enter length: "))
         self.breadth = float(input("Enter breadth: "))
@@ -11,5 +15,7 @@ class Area:
         if type(self.length) not in (int, float) or type(self.breadth) not in (int, float) :
             raise TypeError("Please Enter a Number of type integer of float")
         self.area = self.length * self.breadth
+
+
 value = Area()
 print(f"Area of the rectangle is {value.area}")
