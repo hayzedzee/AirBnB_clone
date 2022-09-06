@@ -5,7 +5,7 @@
 class Area:
     """A class that will calculate area of a rectangle"""
 
-    def _init_(self):
+    def __init__(self):
 
         """class method to calculate area"""
         self.length = float(input("Enter length: "))
