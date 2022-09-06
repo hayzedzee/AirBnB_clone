@@ -1,1 +1,3 @@
 AirBnB Project Loading... Still work in Progress...
+This project creates a basic clone of AirBnB web app.
+In this first phase a basic console was created using the Cmd Python module.
