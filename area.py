@@ -12,8 +12,8 @@ class Area:
         self.breadth = float(input("Enter breadth: "))
         if self.length < 0 or self.breadth < 0:
             raise ValueError("Please Enter a Number greater than zero")
-        if type(self.length) not in (int, float) or type(self.breadth) not
-        in (int, float):
+        if (type(self.length) not in (int, float) or
+            type(self.breadth) not in (int, float)):
             raise TypeError("Please Enter a Number of type integer of float")
         self.area = self.length * self.breadth
 
