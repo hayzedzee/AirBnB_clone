@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# This module will calculate the area of a rectangle using the concept of OOP
+# This is just a simple python syntax
 
 
 name = input("Enter Name: ")
